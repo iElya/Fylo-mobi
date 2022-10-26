@@ -13,7 +13,7 @@
     width: 100%;
     min-height: 820px;
 }
-.navbar{
+.nav{
     max-width: 1440px;
     width: 100%;
     float: left;
@@ -54,20 +54,20 @@
     color: #07043B;
 }
 
-.features_content{
+.section1{
     float: left;
     padding: 65px 80px;
     width: 100%;
 }
-.features_img_mob{
+.img_mob{
     display: none;
 }
-.features_cta{
+.text1{
     margin-top: 60px;
     width: 50%;
     float: left;
 }
-.features_cta h1{
+.text1 h1{
     width: 90%;
     font-family: 'Raleway';
     font-style: normal;
@@ -76,7 +76,7 @@
     line-height: 60px;
     color: #07043B;
 }
-.features_cta p{
+.text1 p{
     margin-top: 15px;
     width: 80%;
     font-family: 'Open Sans';
@@ -88,7 +88,7 @@
     color: #07043B;
 }
 
-.features_cta .inp{
+.text1 .inp{
     border: 0.625px solid #07043b;
     border-radius: 3.125px;
     padding: 14px 130px 12px 21px;
@@ -96,7 +96,7 @@
     margin-top: 25px;
 
 }
-.features_cta .btn{
+.text1 .btn{
     background: #2F65F8;
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     border-radius: 3.125px;
@@ -110,8 +110,11 @@
     padding: 12px 61px 12px 61px;
     margin-left: 16px;
 }
+.text1 .btn:hover{
+    cursor: pointer;
+}
 
-.features_img{
+.img1{
     float: left;
     width: 50%;
 }
@@ -136,7 +139,7 @@
         min-height: 845px;
     
     }
-    .navbar{
+    .nav{
         float: left;
         width: 100%;
         max-width: 327px;
@@ -174,33 +177,33 @@
         line-height: 14px;
         color: #07043B;
         float: left;
-        margin-right: 24px;
+        margin-right: 0px;
     }
     .menu ul li a{
         text-decoration: none;
     }
     
-    .features_img_mob{
+    .img_mob{
         display: block;
         float: left;
     }
 
-    .features_img{
+    .img1{
         display: none;
     }
-    .features_content{
+    .section1{
         float: left;
         padding: 10px 35px;
         width: 100%;
         box-sizing: border-box;
     }
 
-    .features_cta{
+    .text1{
         margin-top: 40px;
         width: 100%;
         float: left;
     }
-    .features_cta h1{
+    .text1 h1{
         width: 100%;
         font-family: 'Open Sans';
         font-style: normal;
@@ -210,7 +213,7 @@
         text-align: center;
         color: #07043B;
     }
-    .features_cta p{
+    .text1 p{
         margin-top: 15px;
         width: 100%;
         font-family: 'Open Sans';
@@ -222,7 +225,7 @@
         color: #07043B;
     }
     
-    .features_cta .inp{
+    .text1 .inp{
         width: 304px;
         height: 40px;
         border: 0.625px solid #07043b;
@@ -233,7 +236,7 @@
         margin-top: 25px;
     
     }
-    .features_cta .btn{
+    .text1 .btn{
         width: 304px;
         height: 40px;
         background: #2F65F8;
@@ -249,5 +252,8 @@
         padding: 12px 113px;
         margin: 0 auto;
         margin-top: 16px;
+    }
+    .text1 .btn:hover{
+        cursor: pointer;
     }
  }
